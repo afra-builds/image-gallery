@@ -2,26 +2,26 @@
 
 const allImages = [
     // ===== NATURE CATEGORY =====
-    { src: "images\img1.jpg", title: "Serene Mountain Lake", category: "nature" },
-    { src: "images\img4.jpg", title: "Misty Forest Trail", category: "nature" },
-    { src: "images\img7.png", title: "Sunset Over Valley", category: "nature" },
-    { src: "images\img14.jpg", title: "Waterfall Cascade", category: "nature" },
+    { src: "images/img1.jpg", title: "Serene Mountain Lake", category: "nature" },
+    { src: "images/img4.jpg", title: "Misty Forest Trail", category: "nature" },
+    { src: "images/img7.png", title: "Sunset Over Valley", category: "nature" },
+    { src: "images/img14.jpg", title: "Waterfall Cascade", category: "nature" },
 
     // ===== CITY CATEGORY =====
-    { src: "images\img2.jpg", title: "Downtown City Lights", category: "Nightfall" },
-    { src: "images\img5.jpg", title: "Urban Street Life", category: "Nightfall" },
-    { src: "images\img8.jpg", title: "Night Skyline View", category: "Nightfall" },
-    { src: "images\img15.jpg", title: "Modern Architecture", category: "Nightfall" },
+    { src: "images/img2.jpg", title: "Downtown City Lights", category: "Nightfall" },
+    { src: "images/img5.jpg", title: "Urban Street Life", category: "Nightfall" },
+    { src: "images/img8.jpg", title: "Night Skyline View", category: "Nightfall" },
+    { src: "images/img15.jpg", title: "Modern Architecture", category: "Nightfall" },
 
     // ===== ABSTRACT CATEGORY =====
-    { src: "images\img3.jpg", title: "Vibrant Abstract Art", category: "Chromatic" },
-    { src: "images\img6.jpg", title: "Colorful Geometric", category: "Chromatic" },
-    { src: "images\img10.jpg", title: "Fluid Abstract Design", category: "Nightfall" },
-    { src: "images\img13.jpg", title: "Creative Expression", category: "Chromatic" },
+    { src: "images/img3.jpg", title: "Vibrant Abstract Art", category: "Chromatic" },
+    { src: "images/img6.jpg", title: "Colorful Geometric", category: "Chromatic" },
+    { src: "images/img10.jpg", title: "Fluid Abstract Design", category: "Nightfall" },
+    { src: "images/img13.jpg", title: "Creative Expression", category: "Chromatic" },
 
     // ===== EXTRA IMAGES =====
-    { src: "images\img11.jpg", title: "Golden Hour Sunset", category: "nature" },
-    { src: "images\img12.jpg", title: "City at Dusk", category: "Nightfall" }
+    { src: "images/img11.jpg", title: "Golden Hour Sunset", category: "nature" },
+    { src: "images/img12.jpg", title: "City at Dusk", category: "Nightfall" }
 ];
 
 // FALLBACK IMAGES 
