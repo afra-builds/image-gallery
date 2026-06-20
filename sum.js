@@ -4,26 +4,26 @@
 
 const allImages = [
     // ===== NATURE CATEGORY =====
-    { src: "/img1.jpg", title: "Serene Mountain Lake", category: "nature" },
-    { src: "/img4.jpg", title: "Misty Forest Trail", category: "nature" },
-    { src: "/img7.png", title: "Sunset Over Valley", category: "nature" },
-    { src: "/img14.jpg", title: "Waterfall Cascade", category: "nature" },
+    { src: "img1.jpg", title: "Serene Mountain Lake", category: "nature" },
+    { src: "img4.jpg", title: "Misty Forest Trail", category: "nature" },
+    { src: "img7.png", title: "Sunset Over Valley", category: "nature" },
+    { src: "img14.jpg", title: "Waterfall Cascade", category: "nature" },
 
     // ===== CITY CATEGORY =====
-    { src: "/img2.jpg", title: "Downtown City Lights", category: "Nightfall" },
-    { src: "/img5.jpg", title: "Urban Street Life", category: "Nightfall" },
-    { src: "/img8.jpg", title: "Night Skyline View", category: "Nightfall" },
-    { src: "/img15.jpg", title: "Modern Architecture", category: "Nightfall" },
+    { src: "img2.jpg", title: "Downtown City Lights", category: "Nightfall" },
+    { src: "img5.jpg", title: "Urban Street Life", category: "Nightfall" },
+    { src: "img8.jpg", title: "Night Skyline View", category: "Nightfall" },
+    { src: "img15.jpg", title: "Modern Architecture", category: "Nightfall" },
 
     // ===== ABSTRACT CATEGORY =====
-    { src: "/img3.jpg", title: "Vibrant Abstract Art", category: "Chromatic" },
-    { src: "/img6.jpg", title: "Colorful Geometric", category: "Chromatic" },
-    { src: "/img10.jpg", title: "Fluid Abstract Design", category: "Nightfall" },
-    { src: "/img13.jpg", title: "Creative Expression", category: "Chromatic" },
+    { src: "img3.jpg", title: "Vibrant Abstract Art", category: "Chromatic" },
+    { src: "img6.jpg", title: "Colorful Geometric", category: "Chromatic" },
+    { src: "img10.jpg", title: "Fluid Abstract Design", category: "Nightfall" },
+    { src: "img13.jpg", title: "Creative Expression", category: "Chromatic" },
 
     // ===== EXTRA IMAGES =====
-    { src: "/img11.jpg", title: "Golden Hour Sunset", category: "nature" },
-    { src: "/img12.jpg", title: "City at Dusk", category: "Nightfall" }
+    { src: "img11.jpg", title: "Golden Hour Sunset", category: "nature" },
+    { src: "img12.jpg", title: "City at Dusk", category: "Nightfall" }
 ];
 
 // FALLBACK IMAGES - agar aapki images na milen to yeh use hongi
