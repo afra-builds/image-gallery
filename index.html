@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShutterBook</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="logo-area">
+        <div class="logo-icon">📸</div>
+        <div class="logo-text">
+            <h2>ShutterBook</h2>
+            <p>Captured Moments</p>
+        </div>
+    </div>
+    <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Gallery</a>
+        <a href="#">Collections</a>
+        <a href="#">Contact</a>
+    </div>
+</header>
+
+<main class="container">
+    <div class="hero">
+        <h1>✨ Photo Gallery ✨</h1>
+        <p>A collection of beautiful moments captured through the lens.</p>
+    </div>
+
+    <!-- 3D CAROUSEL -->
+    <div class="carousel-wrapper">
+        <div class="section-title">
+            🎡 Image Carousel <span>3D Slider</span>
+        </div>
+        <div class="carousel-container">
+            <button class="carousel-btn-left" id="prevCarouselBtn">❮</button>
+            <div class="carousel-3d">
+                <div class="carousel-track" id="carouselTrack"></div>
+            </div>
+            <button class="carousel-btn-right" id="nextCarouselBtn">❯</button>
+        </div>
+        <div class="carousel-controls">
+            <button class="auto-btn active" id="autoRotateBtn">⏸ Pause Rotation</button>
+        </div>
+    </div>
+
+    <!-- FILTER BUTTONS -->
+    <div class="filter-section" id="filterWrapper">
+        <button class="filter-btn active" data-category="all">📷 All</button>
+        <button class="filter-btn" data-category="nature">🌿 Nature</button>
+        <button class="filter-btn" data-category="city">🏙️ Nightfall</button>
+        <button class="filter-btn" data-category="Chromatic"> Chromatic</button>
+    </div>
+
+    <!-- GALLERY GRID -->
+    <div class="gallery-grid" id="galleryGrid"></div>
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+    <div class="footer-content">
+        <div>© 2026 ShutterBook|copyright</div>
+        <div class="social-icons">
+            <a href="#">📷 Instagram</a>
+            <a href="#">🐦 Twitter</a>
+            <a href="#"><i class="fa fa-facebook"></i> facebook</a>
+        </div>
+    </div>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightboxModal">
+    <div class="lightbox-content">
+        <button class="lb-close" id="closeLb">&times;</button>
+        <button class="lb-prev" id="prevLbBtn">❮</button>
+        <button class="lb-next" id="nextLbBtn">❯</button>
+        <img id="lightboxImage" alt="Lightbox">
+        <div class="lb-caption" id="lbCaption"></div>
+    </div>
+</div>
+<script src="sum.js"></script>
+</body>
+
+</html>
