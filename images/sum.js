@@ -1,6 +1,4 @@
-// ================================================================
-// ✅ YAHAN APNI IMAGES LAGAYEIN - SIRF IS JAGAH CHANGE KAREIN
-// ================================================================
+
 
 const allImages = [
     // ===== NATURE CATEGORY =====
@@ -26,7 +24,7 @@ const allImages = [
     { src: "img12.jpg", title: "City at Dusk", category: "Nightfall" }
 ];
 
-// FALLBACK IMAGES - agar aapki images na milen to yeh use hongi
+// FALLBACK IMAGES 
 const fallbackImages = [
     { src: "https://picsum.photos/seed/nature1/400/300", title: "Beautiful Nature", category: "nature" },
     { src: "https://picsum.photos/seed/city1/400/300", title: "City Skyline", category: "Nightfall" },
@@ -36,8 +34,7 @@ const fallbackImages = [
     { src: "https://picsum.photos/seed/abstract2/400/300", title: "Color Splash", category: "Chromatic" }
 ];
 
-// ================================================================
-// CODE - NICHE KUCH CHANGE NA KAREIN
+
 // ================================================================
 
 let currentCategory = "all";
